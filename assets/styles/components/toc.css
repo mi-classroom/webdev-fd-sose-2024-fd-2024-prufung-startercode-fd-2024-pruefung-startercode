@@ -1,0 +1,10 @@
+/* Toc
+############################################################################ */
+.toc {
+  &__item {
+    max-width: var(--vp-medium);
+    padding-top: var(--size-xs);
+    padding-bottom: var(--size-xs);
+    border-top: solid 1px var(--seperator-color);
+  }
+}

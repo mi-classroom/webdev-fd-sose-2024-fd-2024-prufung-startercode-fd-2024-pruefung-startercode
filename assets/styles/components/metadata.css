@@ -1,0 +1,8 @@
+/* Metadata
+############################################################################ */
+.metadata {
+  dt, dd {
+    padding-top: var(--size-xs);
+    border-top: solid var(--border-width) var(--color-green);
+  }
+}

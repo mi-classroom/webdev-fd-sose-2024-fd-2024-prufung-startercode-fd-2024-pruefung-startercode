@@ -1,0 +1,33 @@
+/* Header
+############################################################################ */
+.header {
+  padding-bottom: var(--size-xl);
+  text-align: center;
+  
+  @media only screen and (width >= 40rem) {
+    text-align: left;
+  }
+
+  .title {
+    margin-bottom: var(--size-m);
+    color: var(--decoration-color);
+    font-size: var(--size-l);
+    font-weight: var(--fw-medium);
+  }
+  
+  .subtitle,
+  .subtitle a {
+    color: var(--color-dark);
+    font-size: var(--size-m);
+  }
+
+  @media only screen and (width >= 40rem) {
+    .title {
+      font-size: var(--size-xl);
+    }
+    
+    .subtitle, .subtitle a {
+      font-size: var(--size-l);
+    }
+  }
+}

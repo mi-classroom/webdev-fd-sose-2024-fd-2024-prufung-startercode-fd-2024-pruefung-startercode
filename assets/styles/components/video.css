@@ -1,0 +1,15 @@
+/* Video Container for YT Videos
+############################################################################ */
+.video-container{
+  position: relative;
+  max-width: calc(var(--size-image-thumbnail) * 3) !important; 
+  aspect-ratio: 16/9;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

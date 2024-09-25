@@ -1,0 +1,54 @@
+/* Topic Overview
+############################################################################ */
+.topic-overview {
+  display: grid;
+  margin-top: var(--size-xl);
+  gap: var(--size-s);
+  grid-template-columns: repeat(auto-fill, minmax(16em, 1fr));
+  
+  .topic-item {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding-bottom: var(--size-m);
+    border-bottom: solid 3px var(--color-pink);
+    margin-left: 0;
+    background-color: var(--color-lighten);
+    justify-items: center;
+    transition: transform var(--tr-fast);
+
+    & > * {
+      padding-right: 2em;
+      color: var(--color-darkest);
+    }
+
+    &::before {
+      content: none;
+    }
+  
+    h3 {
+      padding-top: var(--size-m);
+      margin-bottom: var(--size-s);
+      color: var(--color-darkblue);
+    }
+
+    p {
+      line-height: var(--lh-tight);
+    }
+
+    &:hover{
+      z-index: 1000;
+      transform: rotate(2deg);
+    }
+
+    &.with-light-background{
+      padding: var(--size-s);
+      padding-bottom: var(--size-m);
+      background-color: var(--color-lighten-strong);
+
+      h3{
+        padding-top: var(--size-xs);
+      }
+    }
+  }
+}

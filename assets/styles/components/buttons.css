@@ -1,0 +1,36 @@
+/* Home Button
+############################################################################ */
+.home-button {
+  margin-top: var(--size-xl);
+  margin-bottom: var(--size-l);
+
+  & > a {
+    border: none;
+    text-decoration: none;
+    transition: transform var(--tr-medium);
+
+    &:hover {
+      background-color: transparent;
+      transform: rotate(60deg);
+    }
+  }
+}
+
+/* More Button
+############################################################################ */
+
+.simple-button{
+  padding: var(--size-s) var(--size-m);
+  border-radius: var(--radius-xs);
+  background-color: var(--interaction-color);
+  color: var(--color-lightest);
+  font-size: var(--size-m);
+  transition: all var(--tr-fast);
+
+  &:hover{
+    background-color: var(--color-darkblue);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    
+  }
+}

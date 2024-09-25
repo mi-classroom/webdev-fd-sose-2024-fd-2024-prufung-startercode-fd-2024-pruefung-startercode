@@ -1,0 +1,21 @@
+/* Herotext
+############################################################################ */
+.herotext {
+  font-size: var(--size-m);
+  font-weight: var(--fw-normal);
+  line-height: var(--lh-default);
+  
+  @media only screen and (width >= 40rem) {
+    font-size: var(--size-l);
+    font-weight: var(--fw-normal);
+  }
+}
+
+/* Mini Hero
+############################################################################ */
+
+.mini-hero{
+  max-width: calc(var(--max-width-content) * 0.66) !important;
+  padding-top: var(--size-l);
+  padding-bottom: var(--size-xl);
+}

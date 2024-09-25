@@ -1,0 +1,25 @@
+/* Simple
+############################################################################ */
+.simple {
+  table {
+    margin-top: var(--size-l);
+    margin-bottom: var(--size-xl);
+
+    th {
+      padding-bottom: var(--size-s);
+      font-weight: var(--fw-medium);
+      text-align: left;
+    }
+
+    tr td {
+      padding: var(--size-s) var(--size-s) var(--size-s) 0;
+      border-top: solid 1px var(--color-green);
+    }
+  }
+
+  h3 {
+    i {
+      margin-right: var(--size-xs);
+    }
+  }
+}

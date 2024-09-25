@@ -1,0 +1,80 @@
+@media only screen and (width <= 40rem) {
+  .header,
+  .page,
+  .footer {
+    padding: var(--size-m);
+  }
+}
+
+@media only screen and (width > 40rem) {
+  .header,
+  .page {
+    flex: 0 1 auto;
+    margin-left: var(--size-xl);
+
+    & > * {
+      padding-right: var(--size-xl);
+    }
+
+    & > * > *:not(.is-full-width) {
+      max-width: var(--max-width-content);
+    }
+  }
+
+  .footer {
+    padding-left: var(--size-xl);
+  }
+}
+
+
+
+/* Page
+############################################################################ */
+.page {
+  flex: 1 1 auto;
+}
+
+/* Section
+############################################################################ */
+.section {
+  &.has-seperator {
+    padding-top: var(--size-l);
+    border-top: dotted var(--border-width) var(--border-color);
+    margin-top: var(--size-xl);
+  }
+
+  &.with-bg-gray,
+  &.with-bg-dark{
+    padding-top: var(--size-xl);
+    padding-bottom: var(--size-xxl);
+    margin-top: var(--size-xl);
+    background-color: var(--color-light);
+
+    @media only screen and (width <= 40rem) {
+      padding: var(--size-xl) var(--size-m);
+      margin: calc(var(--size-m) * -1);
+      margin-top: var(--size-xl) ;
+    }
+
+    @media only screen and (width > 40rem) {
+      padding-left: var(--size-xl);
+      margin-left: calc(var(--size-xl) * -1);
+    }
+  }
+
+  &.with-bg-dark{
+    background-color: var(--color-dark);
+    * { color: var(--color-lightest) }
+  }
+
+
+
+}
+
+.section.with-bg-gray + .section.with-bg-dark{
+  margin-top: 0;
+}
+
+section + section{
+  margin-top: var(--size-xl);
+}

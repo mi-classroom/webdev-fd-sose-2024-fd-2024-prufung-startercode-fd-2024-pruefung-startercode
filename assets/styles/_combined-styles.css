@@ -1,0 +1,37 @@
+@import url("reset.css");
+@import url("fonts.css");
+@import url("icons.css");
+@import url("icofont.css");
+@import url("variables.css");
+@import url("base.css");
+@import url("composition.css");
+
+/* Compontents 
+############################################################################ */
+@import url("components/artefact-list.css");
+@import url("components/avatar.css");
+@import url("components/footer.css");
+@import url("components/header.css");
+@import url("components/herotext.css");
+@import url("components/buttons.css");
+@import url("components/keywords.css");
+@import url("components/metadata.css");
+@import url("components/taglist.css");
+@import url("components/toc.css");
+@import url("components/topic-overview.css");
+@import url("components/work-overview.css");
+@import url("components/details.css");
+@import url("components/slideshow.css");
+@import url("components/video.css");
+@import url("components/form.css");
+
+/* Layouts 
+############################################################################ */
+@import url("layouts/simple.css");
+@import url("layouts/work.css");
+@import url("layouts/work-results.css");
+
+
+/* Utilities 
+############################################################################ */
+@import url("utilities.css");

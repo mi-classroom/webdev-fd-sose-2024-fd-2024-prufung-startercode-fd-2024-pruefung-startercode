@@ -1,0 +1,13 @@
+/* Work 
+############################################################################ */
+.work {
+  hr {
+    margin: 0;
+    margin-top: var(--size-l);
+    margin-bottom: var(--size-l);
+  }
+
+  p {
+    margin-bottom: var(--size-m);
+  }
+}

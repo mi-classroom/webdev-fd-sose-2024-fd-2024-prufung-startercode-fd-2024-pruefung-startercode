@@ -1,0 +1,14 @@
+/* Taglist 
+############################################################################ */
+.taglist {
+  &--linear li {
+    display: inline-block;
+  }
+  
+  &__item {
+    &::before {
+      color: var(--decoration-color);
+      content: '#';
+    }
+  }
+}

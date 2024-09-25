@@ -1,0 +1,82 @@
+:root {
+  /* Faktor */
+  --scaling-factor: 1.1;
+
+  /* Sizes */
+  --size-xxs: calc(4px * var(--scaling-factor));
+  --size-xs: calc(7px * var(--scaling-factor));
+  --size-s: calc(11px * var(--scaling-factor));
+  --size-m: calc(18px * var(--scaling-factor));
+  --size-l: calc(29px * var(--scaling-factor));
+  --size-xl: calc(47px * var(--scaling-factor));
+  --size-xxl: calc(76px * var(--scaling-factor));
+
+  /* Font Properties */
+  --font-family-serif: "PTserif", georgia, serif;
+  --font-family-sans: "Barlow", arial, sans-serif;
+  --base-font-size: var(--size-m);
+  --font-icons: "Material Icons";
+
+  /* Font Weights */
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 500;
+  --fw-bold: 600;
+
+  /* Line Heights */
+  --lh-tight: 110%;
+  --lh-default: 130%;
+  --lh-loose: 150%;
+
+  /* Opacity */
+  --op-medium: 0.6;
+
+  /* Base Colors */
+  --color-steingrau: hsl(42deg 3% 55% / 60%);
+  --color-lichtgrau: hsl(100deg 3% 77% / 100%);
+  --color-hellgrau: #BBBAB7;
+  --color-blaugrau: #82899A;
+  --color-pink: #d16;
+  --color-green: #10CFA3;
+  --color-blue: #28C0DE;
+  --color-darkblue: #047A91;
+  --color-yellow: #DECC28;
+  --color-light: #E6DED1;
+  --color-lightest: #fff;
+  --color-lighten: rgb(255 255 255 / 20%);
+  --color-lighten-strong: rgb(255 255 255 / 50%);
+  --color-dark: #57544F;
+  --color-darker: #000;
+  --color-darkest: #000;
+  --color-darken: rgb(0 0 0 / 20%);
+  --color-darken-strong: rgb(0 0 0 / 70%);
+  --color-darken-light: rgb(20 20 0 / 5%);
+
+  /* Functional Colors */
+  --interaction-color: var(--color-dark);
+  --decoration-color: var(--color-pink);
+  --icon-color: var(--color-blue);
+  --text-color: var(--color-darker);
+  --headline-color: var(--color-darkblue);
+  --headline-color-light: var(--color-steingrau);
+  --border-color: var(--color-lichtgrau);
+  --seperator-color: var(--color-light);
+  --background-color: var(--color-lighter);
+
+  /* Transitions */
+  --tr-fast: 0.2s;
+  --tr-medium: 0.6s;
+  --tr-slow: 1s;
+
+  /* Misc */
+  --bw: 2px;
+  --text-shadow: 0 0 20px rgb(0 0 0 / 90%);
+  --box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+  --max-width-content: 50rem;
+  --aside-width: 20rem;
+  --border-width: 2px;
+  --radius-xs: 3px;
+  --radius-s: 0.5rem;
+  --shadow-m: 0 0 10px rgb(0 0 0 / 20%);
+  --size-image-thumbnail: 12.5rem;
+}
