@@ -17,6 +17,5 @@ npm run dev
   /js                enthält die Javascript Dateien
   /styles            enthält die CSS Dateien
   /uploads           enthält Bilder, die via CMS hochgeladen wurden
-/compiled-assets/    enthält die kompiulierten Assets, z.B. Styles. Hier keine Änderungen vornehmen.
 ```
 😎
